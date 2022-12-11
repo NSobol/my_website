@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="./css/style.css" />
-	<title>My site</title>
+	<title>Личный сайт портфолио Натальи Соболевой</title>
 </head>
 
 <body>
@@ -24,10 +24,10 @@
 						<a href="#about" class="menu-link">Обо мне</a>
 					</li>
 					<li class="menu-list-item">
-						<a href="#portfolio" class="menu-link">Портфолио</a>
+						<a href="#texno" class="menu-link">Технологии</a>
 					</li>
 					<li class="menu-list-item">
-						<a href="#reviews" class="menu-link">Отзывы</a>
+						<a href="#portfolio" class="menu-link">Портфолио</a>
 					</li>
 					<li class="menu-list-item">
 						<a href="#contacts" class="menu-link">Контакты</a>
@@ -49,6 +49,7 @@
 				<h1 class="banner-title">Наталья Соболева</h1>
 				<p class="banner-subtitle">Фрилансер, Frontend-разработчик, <br>профессиональная верстка сайтов</p>
 			</section>
+
 			<!-- Блок "Обо мне" -->
 			<section class="block about" id="about">
 				<h2 class="title">Обо мне</h2>
@@ -59,74 +60,168 @@
 					<div class="card-text"></div>
 				</div>
 			</section>
-			<!-- Блок "Мои технологии" -->
-			<section class=" block skills">
-				<h2 class="title">Технологии, которые я использую</h2>
 
+			<!-- Блок "Мои технологии" -->
+			<section class=" block skills" id="texno">
+				<h2 class="title">Технологии, которые я использую</h2>
+				<div class="ant-carousel">
+					<div class="ant-carousel-hider">
+						<ul class="ant-carousel-list">
+							<li class="ant-carousel-element">
+								<img src="./img/texno_icon/browsers.png" alt="browsers">
+							</li>
+							<li class="ant-carousel-element">
+								<img src="./img/texno_icon/figma.png" alt="figma">
+							</li>
+							<li class="ant-carousel-element">
+								<img src="./img/texno_icon/photoshop.png" alt="photoshop">
+							</li>
+							<li class="ant-carousel-element">
+								<img src="./img/texno_icon/html.png" alt="html">
+							</li>
+							<li class="ant-carousel-element">
+								<img src="./img/texno_icon/js.png" alt="js">
+							</li>
+							<li class="ant-carousel-element">
+								<img src="./img/texno_icon/sass.png" alt="sass">
+							</li>
+							<li class="ant-carousel-element">
+								<img src="./img/texno_icon/vscode.png" alt="vscode">
+							</li>
+							<li class="ant-carousel-element">
+								<img src="./img/texno_icon/git.png" alt="git">
+							</li>
+						</ul>
+					</div>
+				</div>
 			</section>
+
 			<!-- Блок "Портфолио" -->
 			<section class=" block portfolio" id="portfolio">
 				<div class="portfolio-container">
 					<h2 class="title">Примеры моих работ</h2>
 					<div class="portfolio-cards">
 						<article class="card">
-							<img src="./img/preview_img/Botanika_prev.png" alt="Превью страницы сайта"
-								class="card-image">
-							<h3 class="card-title">Botanika</h3>
-							<p>Верстка главной страницы сайта цветочного магазина</p>
+							<a href="botanika.html" class="card-link">
+								<img src="./img/preview_img/Botanika_prev.jpg" alt="Превью страницы сайта"
+									class="card-image">
+								<h3 class="card-title">Botanika</h3>
+								<p>Верстка главной страницы сайта цветочного магазина</p>
+							</a>
 						</article>
 
 						<article class="card">
-							<img src="./img/preview_img/Noemi_prev.png" alt="Превью страницы сайта" class="card-image">
-							<h3 class="card-title">Noemi</h3>
-							<p>Верстка страницы блога о творчестве, спорте и образе жизни</p>
+							<a href="noemi.html" class="card-link">
+								<img src="./img/preview_img/Noemi_prev.jpg" alt="Превью страницы сайта"
+									class="card-image">
+								<h3 class="card-title">Noemi</h3>
+								<p>Верстка страницы блога о творчестве, спорте и образе жизни</p>
+							</a>
 						</article>
 
 						<article class="card">
-							<img src="./img/preview_img/BOUNCE_prev.png" alt="Превью страницы сайта" class="card-image">
-							<h3 class="card-title">Bounce</h3>
-							<p>Верстка Lending Page</p>
+							<a href="bouncy.html" class="card-link">
+								<img src="./img/preview_img/BOUNCY_prev.jpg" alt="Превью страницы сайта"
+									class="card-image">
+								<h3 class="card-title">Bouncy</h3>
+								<p>Верстка Lending Page</p>
+							</a>
 						</article>
 
 						<article class="card">
-							<img src="./img/preview_img/StartUp_prev.png" alt="Превью страницы сайта"
-								class="card-image">
-							<h3 class="card-title">StartUp</h3>
-							<p>Верстка Lending Page</p>
+							<a href="startup.html" class="card-link">
+								<img src="./img/preview_img/StartUp_prev.jpg" alt="Превью страницы сайта"
+									class="card-image">
+								<h3 class="card-title">StartUp</h3>
+								<p>Верстка Lending Page</p>
+							</a>
 						</article>
 
 						<article class="card">
-							<img src="./img/preview_img/Warehouse_prev.png" alt="Превью страницы сайта"
-								class="card-image">
-							<h3 class="card-title">Warehouse</h3>
-							<p>Верстка Lending Page</p>
+							<a href="datawarehouse.html" class="card-link">
+								<img src="./img/preview_img/DataWarehouse_prev.jpg" alt="Превью страницы сайта"
+									class="card-image">
+								<h3 class="card-title">DataWarehouse</h3>
+								<p>Верстка Lending Page</p>
+							</a>
 						</article>
 
 						<article class="card">
-							<img src="./img/preview_img/Zagadka.png" alt="Превью страницы игры" class="card-image">
-							<h3 class="card-title">Игра "Отгадай загадки"</h3>
-							<p>Верстка и программирование с помощью JavaScript игры в загадки. </p>
+							<a href="zagadka.html" class="card-link">
+								<img src="./img/preview_img/Zagadka.jpg" alt="Превью страницы игры" class="card-image">
+								<h3 class="card-title">Игра "Отгадай загадки"</h3>
+								<p>Верстка и программирование на JavaScript игры в загадки.</p>
+							</a>
 						</article>
 					</div>
 				</div>
-
 			</section>
-			<!-- Блок "Отзывы" -->
-			<!-- <section class="block reviews" id="reviews">
-				<h2 class="title">Отзывы</h2>
-			</section> -->
-			<!-- Блок "Контакты" -->
-			<!-- <section class="block contacts" id="contacts">
-				<h2 class="title">Контакты</h2>
-			</section> -->
 		</div>
 	</main>
+
 	<!-- Блок "Подвал" -->
-	<footer class="footer">
+	<footer class="footer" id="contacts">
 		<div class="footer-content">
-			<p class="copyright">Copyright © Наталья Соболева 2022</p>
+			<div class="footer-content-container">
+				<div class="footer-contacts">
+					<h3>Контакты</h3>
+					<p class="footer-contacts-subtitle">Отвечаю в будние дни
+						<br>
+						с 10.00 до 21.00
+					</p>
+					<div class="footer-contact">
+						<img src="./img/svg/mail.svg" alt="Email">
+						<div>
+							<a href="mailto:varna09@rambler.ru">
+								<span>Email:</span><br>
+								varna09@rambler.ru
+							</a>
+						</div>
+					</div>
+					<div class="footer-contact">
+						<img src="./img/svg/telegram.svg" alt="Telegramm">
+						<div>
+							<a href="https://t.me/Varna1979" target="_blank" rel="nofollow">
+								<span>Telegram:</span><br>
+								https://t.me/Varna1979
+							</a>
+						</div>
+					</div>
+					<div class="footer-contact">
+						<img src="./img/svg/whatsapp.svg" alt="Whatsapp">
+						<div>
+
+							<a href="https://wa.me/+79960961938" target="_blank" rel="nofollow">
+								<span>Whatsapp:</span><br>
+								+79960961938
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-icons">
+					<p>Мои профили в социальных сетях</p>
+					<div class="footer-icons-row">
+						<a href="https://vk.com/id95532557">
+							<img src="./img/svg/vk.svg" alt="Вконтакте">
+						</a>
+						<a href="https://github.com/NatalySoboleva">
+							<img src="./img/svg/github.svg" alt="Github">
+						</a>
+					</div>
+
+				</div>
+				<div class="footer-contact1">
+					<a href="https://vk.me/id95532557" class="contact-button">Связаться Вконтакте</a>
+					<p>Напишите мне, чтобы заказать или узнать стоимость верстки Вашего проекта.</p>
+					<p class="copyright">HTML верстка и разработка сайтов</p>
+					<p class="copyright-name">© Наталья Соболева 2022</p>
+				</div>
+			</div>
+
 		</div>
 	</footer>
+	<script src="./js/index.js"></script>
 </body>
+
 
 </html>
