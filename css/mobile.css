@@ -9,7 +9,7 @@
   }
 
   .banner-subtitle {
-    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
   /*Обо мне*/
@@ -17,8 +17,8 @@
     margin-top: 15px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     padding: 10px;
   }
 
@@ -103,8 +103,8 @@
     margin-top: 15px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .card-about-img {
@@ -136,11 +136,11 @@
   .portfolio-cards {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .card {
@@ -174,11 +174,11 @@
   .footer-content-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .footer-contacts,
@@ -186,8 +186,8 @@
   .footer-contact1 {
     margin-bottom: 30px;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .footer-icons,
@@ -197,8 +197,8 @@
 
   .footer-icons-row {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .contact-button {
