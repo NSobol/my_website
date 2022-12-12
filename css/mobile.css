@@ -5,11 +5,11 @@
   }
 
   .banner-title {
-    padding-top: 70px;
+    padding-top: 120px;
   }
 
   .banner-subtitle {
-    padding-bottom: 90px;
+    padding-bottom: 170px;
   }
 
   /*Обо мне*/
@@ -90,13 +90,13 @@
   }
   .banner-title {
     font-size: 26px;
-    padding-top: 80px;
+    padding-top: 120px;
   }
 
   .banner-subtitle {
     font-size: 14px;
     letter-spacing: 0.1em;
-    padding-bottom: 80px;
+    padding-bottom: 170px;
   }
   /*Обо мне*/
   .card-about {
