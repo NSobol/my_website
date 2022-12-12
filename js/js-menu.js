@@ -1,8 +1,15 @@
 "use strict";
-
+//Находим кнопку, меню и banner
 const btn = document.querySelector(".menu-button");
+const span = document.querySelector(".menu-button-label");
+const menu = document.querySelector(".menu-list");
+const banner = document.querySelector(".banner");
 
-console.log(btn);
 btn.onclick = function () {
-  btn.classList.toggle(".js-menu-button");
+  btn.classList.toggle("js-menu-button");
+  menu.classList.toggle("js-menu-list");
+  menu.classList.toggle("menu-list");
+  banner.classList.toggle("banner-mobile");
+  span.classList.toggle("menu-button-label");
+  span.classList.toggle("label-mobile");
 };
