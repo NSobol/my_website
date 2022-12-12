@@ -31,6 +31,9 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: #ffffff;
@@ -55,6 +58,10 @@ h2 {
   line-height: 130%;
   color: black;
   text-align: center;
+}
+
+img {
+  max-width: 100%;
 }
 
 /*Стили блока "Шапка"*/
@@ -203,8 +210,8 @@ header {
 .menu-button-label {
   display: none;
 }
-/*Стили блока "баннер"*/
 
+/*Стили блока "баннер"*/
 .container {
   max-width: 1200px;
   margin-left: auto;
@@ -226,10 +233,11 @@ header {
           flex-direction: column;
   position: relative;
 
-  background-image: url("./../img/Banner.jpg");
+  /* background-image: url("./../img/Banner.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  /* background-color: #213053; */
 }
 
 .banner::after {
@@ -276,6 +284,43 @@ header {
   background-color: #ffffff;
 }
 /*Стили блока "Обо мне"*/
+
+.card-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 30px;
+}
+
+.card-about-img {
+  width: 35%;
+}
+
+.card-about-img img {
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: fill-available;
+  border-radius: 50px;
+}
+
+.card-text {
+  width: 65%;
+  margin-left: 20px;
+}
+
+.card-text p {
+  font-family: "OpenSans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.6;
+}
 
 /*Стили блока "Технологии"*/
 .skills {

@@ -1,0 +1,215 @@
+/*Медиа запрос для экранов с шириной до 1140px*/
+@media (max-width: 1140px) {
+  .container {
+    max-width: 1140px;
+  }
+  .card {
+    width: calc(50% - 15px);
+  }
+
+  /*Обо мне*/
+  .card-about {
+    margin-top: 15px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 10px;
+  }
+
+  .card-about-img {
+    width: 40vw;
+    margin: 0;
+  }
+
+  .card-text {
+    width: 60vw;
+  }
+
+  .card-text p {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  /*Технологии*/
+  .ant-carousel-element {
+    margin: 0 15px;
+    width: 226px;
+    height: 130px;
+  }
+
+  .ant-carousel-element img {
+    width: 226px;
+    height: 130px;
+  }
+}
+
+/*Медиа запрос для экранов с шириной до 760px*/
+@media (max-width: 760px) {
+  h2 {
+    font-size: 24px;
+  }
+  /*шапка*/
+  header {
+    height: 60px;
+  }
+
+  .header-content {
+    padding: 10px 15px;
+  }
+
+  .header-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .menu-list {
+    display: none;
+  }
+
+  .menu-button,
+  .menu-button-label {
+    display: block;
+  }
+
+  .container {
+    max-width: 760px;
+  }
+  /*Баннер*/
+  .banner {
+    background-size: 100vw;
+  }
+  .banner-title {
+    font-size: 26px;
+    padding-top: 15px;
+  }
+
+  .banner-subtitle {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    padding-bottom: 25px;
+  }
+  /*Обо мне*/
+  .card-about {
+    margin-top: 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .card-about-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .card-text {
+    margin: 7px;
+  }
+
+  .card-text p {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+  /*Технологии*/
+  .ant-carousel-element {
+    margin: 0 20px;
+    width: 270px;
+    height: 160px;
+  }
+
+  .ant-carousel-element img {
+    width: 270px;
+    height: 160px;
+  }
+
+  /*Мои работы*/
+  .portfolio-cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .card {
+    width: 90vw;
+    margin-bottom: 20px;
+  }
+
+  .card:nth-last-child(2) {
+    margin-bottom: 20px;
+  }
+
+  .card-link {
+    padding: 10px;
+  }
+  .card-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+
+  /*Подвал*/
+  .footer-content-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .footer-contacts,
+  .footer-icons,
+  .footer-contact1 {
+    margin-bottom: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .footer-icons,
+  .footer-contact1 {
+    text-align: center;
+  }
+
+  .footer-icons-row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .contact-button {
+    font-size: 12px;
+  }
+
+  .contact-button:hover {
+    background-color: #ffffff;
+    color: #213053;
+  }
+
+  /* стили второстепенных страниц*/
+  .project {
+    padding: 40px 0;
+  }
+  .project-header {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .project-img {
+    margin-bottom: 20px;
+  }
+}
