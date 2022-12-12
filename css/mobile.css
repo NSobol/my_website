@@ -3,8 +3,13 @@
   .container {
     max-width: 1140px;
   }
-  .card {
-    width: calc(50% - 15px);
+
+  .banner-title {
+    padding-top: 50px;
+  }
+
+  .banner-subtitle {
+    padding-top: 60px;
   }
 
   /*Обо мне*/
@@ -41,6 +46,10 @@
   .ant-carousel-element img {
     width: 226px;
     height: 130px;
+  }
+
+  .card {
+    width: calc(50% - 15px);
   }
 }
 
@@ -81,13 +90,13 @@
   }
   .banner-title {
     font-size: 26px;
-    padding-top: 15px;
+    padding-top: 30px;
   }
 
   .banner-subtitle {
     font-size: 14px;
     letter-spacing: 0.1em;
-    padding-bottom: 25px;
+    padding-bottom: 45px;
   }
   /*Обо мне*/
   .card-about {
