@@ -148,6 +148,13 @@ header {
 }
 
 .menu-list-item a {
+  display: inline-block;
+  max-width: 130px;
+  padding: 3px;
+  -o-text-overflow: clip;
+     text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden;
   color: #ffffff;
   font-family: "OpenSans-SemiBold", sans-serif;
   font-size: 18px;
@@ -255,6 +262,12 @@ header {
 }
 
 .banner-title {
+  max-width: 540px;
+  padding: 3px;
+  -o-text-overflow: clip;
+     text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden;
   font-family: "OpenSans-Bold", sans-serif;
   font-weight: 700;
   font-size: 56px;

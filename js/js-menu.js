@@ -1,7 +1,7 @@
 "use strict";
 //Находим кнопку, меню и banner
 const btn = document.querySelector(".menu-button");
-const span = document.querySelector(".menu-button-label");
+const label = document.querySelector(".menu-button-label");
 const menu = document.querySelector(".menu-list");
 const banner = document.querySelector(".banner");
 
